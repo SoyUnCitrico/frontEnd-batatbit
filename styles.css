@@ -262,7 +262,7 @@ main {
     width: 64px;
     height: 24px;
     background-image: url('./assets/logo/papa.svg');
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }

@@ -254,13 +254,17 @@ main {
 }
 
 .product-detail--batata-logo {
+    
     position: absolute;
+    /* display: inline-block; */
     top: -12px;
     left: calc(50% - 20px);
-    width: 40px;
+    width: 64px;
     height: 24px;
     background-image: url('./assets/logo/papa.svg');
-
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .product-detail--title {
@@ -363,9 +367,8 @@ main {
 .bitcoin-image-container {
     width: 100%;
     min-width: 320px;
-    height: 50vh;
+    height: 60vh;
     background-image: url('./assets/img/bitcoinbaby_2x.png');
-    /* background-size: cover; */
     background-position: center;
     background-repeat: no-repeat;
 
